@@ -1,5 +1,7 @@
-# SageMaker Deployment Project
+# Deploying a ML model on AWS SageMaker
+[*Udacity Machine Learning Engineer Nanodegree Program*](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t) | Machine Learning in Production Project
 
-The notebook and Python files provided here, once completed, result in a simple web app which interacts with a deployed recurrent neural network performing sentiment analysis on movie reviews. This project assumes some familiarity with SageMaker, the mini-project, Sentiment Analysis using XGBoost, should provide enough background.
+This repository contains my project for the *Machine Learning in Production* module of the Machine Learning Engineer Nanodegree from Udacity.
 
-Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
+Boiler code and utility functions were provided directly by Udacity and are not of my work.
+[Udacity Github repository](https://github.com/udacity/sagemaker-deployment)
