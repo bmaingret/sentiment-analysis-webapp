@@ -66,7 +66,7 @@ def predict_fn(input_data, model):
         raise Exception('Model has not been loaded properly, no word_dict.')
 
     # Create input tensor
-    data_X, data_len = convert_and_pad(word_dict, review_to_words(input_data))
+    data_X, data_len = convert_and_pad(model.word_dict, review_to_words(input_data))
 
     data_pack = np.hstack((data_len, data_X))
     data_pack = data_pack.reshape(1, -1)
@@ -80,7 +80,7 @@ def predict_fn(input_data, model):
     # TODO: Compute the result of applying the model to the input data. The variable `result` should
     #       be a numpy array which contains a single integer which is either 1 or 0
     
-
-    result = int(round(model.predict(data)))
+    y = model(data).detach()
+    result = np.around(y.numpy()).astype(int)
 
     return result
