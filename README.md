@@ -27,8 +27,24 @@ Then a simple web page allows to input a movie review and have it classified by 
     
 ![App <-> API <-> Lambda <-> Model](./assets/Web%20App%20Diagram.svg)
 
+## Files
+
+    .
+    ├── assets                  # Images
+    ├── train                   # Python scripts to define and train the PyTorch model
+    ├── serve                   # Python scripts to load the trained PyTorch model and handle data (de)serialization
+    ├── index.html              # Simple UI to input a review to classify and retrieve model
+    ├── README.md
+    ├── report.html             # Exported notebook to HTML
+    └── SageMaker Project.ipynb # Jupyter notebook
+
+
 ## Demo
 
 I might leave the model online for some times depending on AWS free tier...
 
 [Sentiment analysis webapp](https://bmaingret.github.io/sentiment-analysis-webapp/)
+
+## HTML report
+
+[Jupyter Notebook HTML](https://bmaingret.github.io/sentiment-analysis-webapp/report.html)
