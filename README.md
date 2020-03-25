@@ -19,10 +19,11 @@ The model will be an LTSM neural network used to classify movie reviews in two c
 Both model training and deployment is done on AWS SageMaker, and we used PyTorch as NN framework.
 
 Then a simple web page allows to input a movie review and have it classified by the deployed model thanks to AWS API Gateway and Lambda Services:
-    * API Gateway is used solely for forwarding the request to the defined lambda
-    * Lambda service is used to handle the HTTP request and response, and invoke our model.
+
+* API Gateway is used solely for forwarding the request to the defined lambda
+* Lambda service is used to handle the HTTP request and response, and invoke our model.
     
-![App <-> API <-> Lambda <-> Model](./Web App Diagram.svg)
+![App <-> API <-> Lambda <-> Model](./Web%20App%20Diagram.svg)
 
 ## Demo
 
