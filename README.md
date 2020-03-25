@@ -25,7 +25,7 @@ Then a simple web page allows to input a movie review and have it classified by 
 * API Gateway is used solely for forwarding the request to the defined lambda
 * Lambda service is used to handle the HTTP request and response, and invoke our model.
     
-![App <-> API <-> Lambda <-> Model](./Web%20App%20Diagram.svg)
+![App <-> API <-> Lambda <-> Model](./assets/Web%20App%20Diagram.svg)
 
 ## Demo
 
