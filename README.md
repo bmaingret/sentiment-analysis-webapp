@@ -10,6 +10,8 @@ AWS API Gateway has changed a bit since Udacity's code was released, but the gen
 
 One thing not mentioned in the notebook is to set up CORS coorectly for the created API.
 
+The [report.html](./report.html) file is the exported notebook in HTML.
+
 ## Overview
 
 This project aims to deploy a machine learning model on AWS.
